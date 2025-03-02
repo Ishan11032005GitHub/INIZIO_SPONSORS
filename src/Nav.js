@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-
+import './Nav.css';
 function Nav() {
   return (
     <header>
