@@ -1,0 +1,397 @@
+/* General header styling */
+header {
+    background-color: #FF7833;
+    background-image: url("bg.svg");
+    background-size: cover;
+    color: #fdffa1;
+}
+
+/* Navigation Bar */
+.NB {
+    text-align: left;
+    margin-left: 3vw;
+}
+
+/* Logo styling */
+.E_CELL_LOGO {
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+/* Navigators container */
+.navigators {
+    display: inline-block;
+    margin-left: 5em;
+}
+
+/* Navigation list items */
+li {
+    display: inline-block;
+    margin-left: 5em;
+}
+
+/* Specific navigation items */
+.SP {
+    margin-left: 8vw;
+}
+
+.EVENTS {
+    margin-left: 8vw;
+}
+
+.TEAMS {
+    margin-left: 8vw;
+}
+
+.INIZIO_LOGO {
+    display: inline-block;
+    margin-left: 7vw;
+}
+
+/* Style for nav links */
+.NAVLINKS {
+    text-decoration: none;
+    color: #fdffa1;
+}
+
+/* Sponsors section */
+.SPONSORS {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 7.5vh;
+    padding-bottom: 20vh;
+    font-size: 4rem;
+}
+
+/* Heading in sponsors section */
+.Heading {
+    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 2.5em;
+}
+
+/* Paragraph in sponsors section */
+.para {
+    font-size: 1rem;
+    font-family: system-ui;
+    margin-top: 0;
+    text-align: center;
+    display: block;
+    width: 750px;
+}
+
+/* Logo settings */
+.SettingsLogo {
+    height: 1vh;
+    width: 1vw;
+}
+
+.logo {
+    margin-top: 2.5vh;
+    display: block;
+    text-align: center;
+}
+
+/* Contact us link styling */
+.CONTACT_US {
+    margin-left: 15em;
+}
+
+@media screen and (max-width: 1420px) {
+    .navigators {
+        display: inline-block;
+        margin-left: 4em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .CONTACT_US {
+        margin-left: 13.5em;
+    }
+}
+@media screen and (max-width: 1315px) {
+    .CONTACT_US {
+        margin-left: 11.5em;
+    }
+}
+@media screen and (max-width: 1315px) {
+    .CONTACT_US {
+        margin-left: 11.5em;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .CONTACT_US {
+        margin-left: 10em;
+    }
+}
+@media screen and (max-width: 1215px) {
+    .E_CELL_LOGO {
+        margin-right: 3vw;
+    }
+}
+@media screen and (max-width: 1210px) {
+    .navigators {
+        margin-left: 2.5em;
+    }
+}
+@media screen and (max-width: 1190px) {
+    .navigators {
+        margin-left: 2em;
+    }
+}
+@media screen and (max-width: 1152px) {
+    .navigators {
+        margin-left: 1em;
+    }
+    .EVENTS{
+        margin-left: 6vw;
+    }
+    .SP{
+        margin-left: 6vw;
+    }
+    .INIZIO_LOGO{
+        margin-left: 9vw;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .CONTACT_US {
+        margin-left: 9em;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .E_CELL_LOGO {
+        margin-right: 1vw;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .CONTACT_US {
+        margin-left: 8em;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .CONTACT_US {
+        margin-left: 7.5em;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .CONTACT_US {
+        margin-left: 7.5em;
+    }
+}
+@media screen and (max-width: 1015px) {
+    .E_CELL_LOGO {
+        margin-right: 0.5vw;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .CONTACT_US {
+        margin-left: 6em;
+    }
+}
+@media screen and (max-width: 970px) {
+    .navigators {
+        margin-left: 0.75em;
+    }
+    .EVENTS{
+        margin-left: 5vw;
+    }
+    .SP{
+        margin-left: 5vw;
+    }
+    .INIZIO_LOGO{
+        margin-left: 9vw;
+    }
+}
+@media screen and (max-width: 925px) {
+    .navigators {
+        margin-left: 0.9em;
+    }
+    .EVENTS{
+        margin-left: 5vw;
+    }
+    .SP{
+        margin-left: 5vw;
+    }
+    .TEAMS{
+        margin-left: 2vw;
+    }
+    .INIZIO_LOGO{
+        margin-left: 10vw;
+    }
+    .CONTACT_US{
+        margin-left: 4em;
+    }
+}
+@media screen and (max-width: 870px) {
+    .TEAMS{
+        margin-left: 1vw;
+    }
+    .INIZIO_LOGO{
+        margin-left: 5vw;
+    }
+}
+@media screen and (max-width: 870px) {
+    .navigators {
+        margin-left: 0em;
+        padding-left: 1em;
+    }
+    .EVENTS{
+        margin-left: 5vw;
+    }
+    .SP{
+        margin-left: 5vw;
+    }
+    .TEAMS{
+        margin-left: 3vw;
+    }
+    .INIZIO_LOGO{
+        margin-left: 8vw;
+    }
+    .CONTACT_US{
+        margin-left: 3em;
+    }
+}
+@media screen and (max-width: 885px) {
+    .CONTACT_US{
+        margin-left: 2.25em;
+    }
+    .TEAMS{
+        margin-left: 2.25em;
+    }
+}
+@media screen and (max-width: 842px) {
+    ul {
+        margin-left: 0em;
+        padding-left: 0em;
+    }
+}
+@media screen and (max-width: 824px) {
+    .navigators {
+        margin-left: 0em;
+        padding-left: 0em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .NB {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .E_CELL_LOGO {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .navigators {
+        display: block;
+    }
+    li {
+        display: block;
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    .SP, .EVENTS, .TEAMS {
+        margin-left: 0;
+    }
+
+    .INIZIO_LOGO {
+        margin-left: 0;
+        text-align: center;
+        /* display: block; */
+        display: none;
+        margin-top: 1rem;
+    }
+
+    .logo {
+        width: 4rem; /* Adjust logo size for smaller screens */
+        height: 4rem;
+    }
+
+    .SPONSORS {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        padding-top: 5vh;
+        padding-bottom: 15vh;
+    }
+
+    .Heading {
+        font-size: 2.5rem; /* Smaller heading for mobile */
+    }
+
+    .para {
+        font-size: 0.9rem; /* Smaller paragraph for mobile */
+    }
+
+    .CONTACT_US {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .Heading {
+        font-weight: 900;
+        display: inline-block;
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+    .para {
+        font-size: 1rem;
+        font-family: system-ui;
+        margin-top: 0;
+        text-align: center;
+        display: block;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Heading {
+        font-weight: 900;
+        display: inline-block;
+        margin-bottom: 0;
+        font-size: 2.5em;
+    }
+    .para {
+        font-size: 1rem;
+        font-family: system-ui;
+        margin-top: 0;
+        text-align: center;
+        display: block;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .Heading {
+        font-weight: 900;
+        display: inline-block;
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+    .para {
+        font-size: 1rem;
+        font-family: system-ui;
+        margin-top: 0;
+        text-align: center;
+        display: block;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .Heading {
+        font-weight: 900;
+        display: inline-block;
+        margin-bottom: 0;
+        font-size: 1.5em;
+    }
+    .para {
+        font-size: 1rem;
+        font-family: system-ui;
+        margin-top: 0;
+        text-align: center;
+        display: block;
+        width: 250px;
+    }
+}
